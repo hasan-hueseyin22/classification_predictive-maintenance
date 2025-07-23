@@ -1,5 +1,3 @@
-# src/train.py
-
 import pandas as pd
 import joblib
 from sklearn.metrics import classification_report, accuracy_score
