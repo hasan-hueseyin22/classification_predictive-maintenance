@@ -44,7 +44,7 @@ Das Ziel ist die Reduzierung von ungeplanten Ausfallzeiten und die Optimierung v
 Nach dem Training gibt das Skript einen Klassifikationsbericht aus, der Metriken wie Präzision, Recall und F1-Score für jede Klasse (Ausfall/kein Ausfall) enthält. Das trainierte Modell wird als `models/model.joblib` gespeichert und kann für zukünftige Vorhersagen verwendet werden.
 ## 📂 Repository-Struktur
 ```
-predictive-maintenance-classification/
+classification_predictive-maintenance/
 ├── data/               # Datensätze (roh und verarbeitet)
 ├── models/             # Gespeicherte Modelle
 ├── notebooks/          # Jupyter Notebooks für die explorative Datenanalyse
