@@ -39,17 +39,7 @@ Das Ziel ist die Reduzierung von ungeplanten Ausfallzeiten und die Optimierung v
     ```bash
     python src/train.py
     ```
+## 📊 Ergebnisse
 
+Nach dem Training gibt das Skript einen Klassifikationsbericht aus, der Metriken wie Präzision, Recall und F1-Score für jede Klasse (Ausfall/kein Ausfall) enthält. Das trainierte Modell wird als `models/model.joblib` gespeichert und kann für zukünftige Vorhersagen verwendet werden.
 ## 📂 Repository-Struktur
-predictive-maintenance-classification/
-├── data/               # Datensätze (roh und verarbeitet)
-├── models/             # Gespeicherte Modelle
-├── notebooks/          # Jupyter Notebooks für die explorative Datenanalyse
-├── src/                # Quellcode
-│   ├── config.py       # Konfigurationsdatei
-│   ├── data_preprocessing.py # Skripte zur Datenvorverarbeitung
-│   ├── model.py        # Modelldefinition
-│   └── train.py        # Trainingsskript
-├── .gitignore          # Git-Ignore-Datei
-├── README.md           # Diese Datei
-└── requirements.txt    # Python-Abhängigkeiten
