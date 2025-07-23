@@ -20,7 +20,7 @@ Das Ziel ist die Reduzierung von ungeplanten Ausfallzeiten und die Optimierung v
 1.  **Repository klonen:**
     ```bash
     git clone [https://github.com/hasan-hueseyin22/classification_predictive-maintenance.git](https://github.com/hasan-hueseyin22/predictive-maintenance-classification.git)
-    cd predictive-maintenance-classification
+    cd classification_predictive-maintenance
     ```
 
 2.  **Virtuelle Umgebung erstellen und aktivieren (empfohlen):**
