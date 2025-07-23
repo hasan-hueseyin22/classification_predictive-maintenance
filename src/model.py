@@ -1,5 +1,3 @@
-# src/model.py
-
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.pipeline import Pipeline
 
