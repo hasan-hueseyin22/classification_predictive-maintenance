@@ -1,5 +1,3 @@
-# src/config.py
-
 # Paths
 DATA_URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/00601/ai4i2020.csv"
 DATA_PATH = "data/raw/ai4i2020.csv"
